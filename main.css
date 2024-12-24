@@ -90,3 +90,29 @@ header {
     font-weight: 300;
 }
 
+/* Basic Card Styling */
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+/* Card Header Styling */
+.card-header {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.card-header h2 {
+  margin: 0; /* Remove default h2 margin */
+}
+
+/* Optional: Add hover effect */
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px); /* Slightly lift the card */
+  transition: all 0.2s ease; /* Add a smooth transition */
+}

@@ -82,11 +82,11 @@ header {
 
 .myname {
 	padding: 20px 0px 0px 30px;
-	font-size: 50px;
+	font-size: 100px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	cursor: hand;
 	cursor: pointer;
     color: #222;
-    font-weight: 50;
+    font-weight: 150;
 }
 
